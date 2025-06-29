@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  background: #000;
+}
+.shadow-gradient {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.1),
+    0 0 15px 4px linear-gradient(to right, red, blue);
+}
+
+.form-container {
+  position: relative;
+  z-index: 0;
+}
+
+.form-container::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  border-radius: 1rem;
+  padding: 2px;
+  background: linear-gradient(to right, red, blue);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+}
