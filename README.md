@@ -1,12 +1,11 @@
-# React + Vite
+# 🚀 React User Registration Form with Tailwind CSS & Gradient Shadow
+![image](https://github.com/user-attachments/assets/7aa3a7df-99dd-4c6a-927c-3919d32a8321)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A fully responsive and accessible user registration form built using **React** and **Tailwind CSS**, with a custom **red-to-blue gradient box shadow** using pure CSS
+## ✨ Features
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ✅ Responsive design
+- ✅ Real-time form validation (password length)
+- ✅ Tailwind CSS styling
+- ✅ Custom linear gradient shadow effect using CSS pseudo-element
+- ✅ Simple success feedback after form submis
